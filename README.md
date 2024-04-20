@@ -137,4 +137,6 @@ info: failed to update ..\build-msvc\dir{simpleapp\}
 
 - Other repro-case are *not* triggering any issue, they compile as expected.
 - So far I didnt manage to isolate the issue without using `boost::unordered::unordered_flat_map`
+- The order of import in repro-case-2 is irrelevant (see repro-case-4)
+-
 

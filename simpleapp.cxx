@@ -16,6 +16,10 @@
 #   include <notmodule.hpp>
     import std;
 
+#elif REPRO_CASE == 4
+    import std;
+    import A;
+
 #endif
 
 
